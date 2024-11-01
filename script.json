@@ -1,0 +1,43 @@
+{ 
+  "~page": { 
+"~bg": "#fff39a", 
+"~align": "center", 
+"~box": "100", 
+"~box-style": "solid" 
+  }, 
+ 
+  "$content": { 
+"$heading": "The C Programming Language", 
+"$author": "Dennis Ritchie & Brian Kernighan", 
+ 
+"!inherit": { 
+ "!color": "white", 
+ "!bg": "black", 
+ "!size": "20", 
+ "!align": "right", 
+ "!box": "50" 
+}, 
+ 
+"$text": "A definitive guide to <b>C Programming Language</b>.",
+"!inherit-1": { 
+ "!color": "red", 
+ "!align": "left" 
+}, 
+ 
+"$text-1": "<i>C is a compiled language.</i>", 
+ 
+"!inherit-3": "!default", 
+"!inherit-4": { 
+ "!size": "30", 
+ "!points-type": "lower-roman" 
+}, 
+ 
+"$points": [ 
+ "C is compiled language.", 
+ "C works on low level.", 
+ "C is strongly typed." 
+ ], 
+"$nl": 5, 
+"$pic": "c.png" 
+  } 
+}
